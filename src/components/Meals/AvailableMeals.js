@@ -10,6 +10,7 @@ function AvailableMeals() {
         <ul>
           {DUMMY_MEALS.map((index) => (
             <MealItem
+              id={index.id}
               key={index.id}
               name={index.name}
               price={index.price}
